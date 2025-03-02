@@ -392,7 +392,7 @@ const resetGame = () => {
 const createWinningResultContent = (winningCount, yieldRate) => {
   return `<dialog class="winning-result-dialog" open>
         <button class="winning-result-close-button">
-          <img src="../public/Vector.png" alt="닫기" />
+          <img src="/public/Vector.png" alt="닫기" />
         </button>
         <h3 class="winning-result-title">🏆 당첨 통계 🏆</h3>
         <div class="winning-result-table-container">
