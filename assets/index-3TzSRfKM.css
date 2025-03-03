@@ -282,7 +282,7 @@ input::-webkit-inner-spin-button {
   margin-bottom: 12px;
 }
 
-.winning-input-form {
+.winning-input-box {
   display: flex;
   justify-content: space-between;
   margin-bottom: 27px;

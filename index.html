@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <title>🎱 행운의 로또</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" crossorigin src="/javascript-lotto/assets/index-e-DhroIY.js"></script>
-    <link rel="stylesheet" crossorigin href="/javascript-lotto/assets/index-B0QnadJD.css">
+    <script type="module" crossorigin src="/javascript-lotto/assets/index-ChIksseZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/javascript-lotto/assets/index-3TzSRfKM.css">
   </head>
 
   <body>
-    <section class="modal-container"></section>
+    <section class="modal-container">
+      <dialog class="winning-result-dialog">
+        <button class="winning-result-close-button" aria-label="닫기"></button>
+        <h3 class="winning-result-title">🏆 당첨 통계 🏆</h3>
+        <div class="winning-result-table-container"></div>
+        <button class="winning-result-restart-button">다시 시작하기</button>
+      </dialog>
+    </section>
     <div id="app">
       <header class="header-container">
         <h1 class="header-title">🎱 행운의 로또</h1>
@@ -25,6 +32,7 @@
               placeholder="금액"
               min="1000"
               max="100000"
+              required
               autofocus
             />
             <button class="purchase-button" type="submit">구입</button>
